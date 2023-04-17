@@ -1,0 +1,12 @@
+.login {
+  &__form-wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+}

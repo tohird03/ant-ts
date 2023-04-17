@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "SB Sans Text", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+svg:not([fill]) {
+  fill: currentColor;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+
+  &.sidebar-links {
+    color: rgba(255, 255, 255, 0.65);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
